@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Laser Tag | Aventura e Tecnologia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Laser Tag</div>
+      <ul class="nav-links">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#funciona">Como Funciona</a></li>
+        <li><a href="#onde-jogar">Onde Jogar</a></li>
+        <li><a href="#comprar">Como Comprar</a></li>
+        <li><a href="#pesquisa">Pesquisa de Mercado</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <div class="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero-section">
+    <div class="hero-text">
+      <h1>Viva a Aventura do Laser Tag</h1>
+      <p>O jogo que une estratégia, adrenalina e tecnologia para todas as idades.</p>
+      <a href="#contato" class="btn-primary">Entre em Contato</a>
+    </div>
+    <div class="hero-image">
+      <img src="arena.jpg" alt="Arena de Laser Tag" />
+    </div>
+  </section>
+
+  <main>
+    <section id="funciona" class="content-section">
+      <h2>Como Funciona</h2>
+      <p>
+        Laser Tag é um jogo de combate com armas que disparam raios infravermelhos, onde o objetivo é acertar os sensores dos coletes dos adversários.  
+        Seguro e divertido, é ideal para todas as idades, combinando tecnologia e emoção.
+      </p>
+      <div class="card-row">
+        <div class="card">
+          <img src="equipamentos.jpg" alt="Equipamentos Laser Tag" />
+          <h3>Equipamentos</h3>
+          <p>Armas e coletes com sensores que registram os acertos em tempo real.</p>
+        </div>
+        <div class="card">
+          <img src="jogadores.jpg" alt="Jogadores de Laser Tag" />
+          <h3>Jogo</h3>
+          <p>Partidas dinâmicas com pontuação e desafios em arenas temáticas.</p>
+        </div>
+        <div class="card">
+          <img src="tecnologia.webp" alt="Tecnologia Laser Tag" />
+          <h3>Tecnologia</h3>
+          <p>Sistemas de registro e feedback instantâneo que tornam o jogo emocionante.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="onde-jogar" class="content-section alternate-bg">
+      <h2>Onde Jogar</h2>
+      <p>
+        Você pode encontrar arenas em shopping centers, parques temáticos e eventos especiais. Também é possível montar sua própria arena em casa com kits profissionais.
+      </p>
+      <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.732540559645!2d-46.64510828454175!3d-23.588020366952746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c6d9f7023f%3A0x7525e8c8b7e05342!2sArena%20Laser%20Tag!5e0!3m2!1spt-BR!2sbr!4v1691688446218!5m2!1spt-BR!2sbr"
+  width="100%"
+  height="400"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+></iframe>
+
+    </section>
+
+    <section id="comprar" class="content-section">
+      <h2>Como Comprar</h2>
+      <p>
+        Equipamentos de Laser Tag podem ser adquiridos em lojas especializadas e plataformas online confiáveis, garantindo qualidade e segurança para sua diversão.
+      </p>
+      <ul class="shop-list">
+        <li><a href="https://www.amazon.com.br" target="_blank" rel="noopener noreferrer">Amazon Brasil</a></li>
+        <li><a href="https://www.mercadolivre.com.br" target="_blank" rel="noopener noreferrer">Mercado Livre</a></li>
+        <li><a href="https://www.lasertech.com" target="_blank" rel="noopener noreferrer">LaserTech (fabricante)</a></li>
+      </ul>
+    </section>
+
+    <section id="pesquisa" class="content-section alternate-bg">
+  <h2>Pesquisa de Mercado</h2>
+  <p>Para abrir uma arena ou lançar produtos no mercado, é fundamental conhecer o público e suas preferências. Veja os passos básicos para realizar uma pesquisa eficiente:</p>
+  <ul style="margin-top: 1.5rem; line-height: 1.8;">
+    <li><strong>Definir o objetivo:</strong> O que deseja descobrir? Perfil, aceitação, concorrência...</li>
+    <li><strong>Identificar o público-alvo:</strong> Idade, localização, interesses...</li>
+    <li><strong>Escolher o tipo de pesquisa:</strong> qualitativa, quantitativa ou ambas.</li>
+    <li><strong>Elaborar questionário:</strong> perguntas claras e objetivas.</li>
+    <li><strong>Coletar dados:</strong> online, presencial ou telefone.</li>
+    <li><strong>Analisar resultados:</strong> tendências e preferências.</li>
+    <li><strong>Tirar conclusões e agir:</strong> tomar decisões baseadas na pesquisa.</li>
+  </ul>
+</section>
+
+
+    <section id="contato" class="content-section">
+      <h2>Contato</h2>
+      <p>
+        Quer saber mais, tirar dúvidas ou receber promoções? Preencha o formulário e fale com nossa equipe!
+      </p>
+      <form id="form-contato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem aqui..." required></textarea>
+
+        <button type="submit" class="btn-primary">Enviar</button>
+      </form>
+      <div id="msg-sucesso" class="hidden">Mensagem enviada com sucesso! Obrigado por entrar em contato.</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Laser Tag Brasil | Desenvolvido por Rafael</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
